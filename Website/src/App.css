@@ -1,0 +1,253 @@
+.App {
+  height: 100%;
+  width: 100%;
+  min-width: 350px;
+
+  background-color: transparent;
+  display: flex;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  background-color: transparent; 
+  background-image: url(./images/MINT_BG.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 0px;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.header-container {
+  display: top;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-right: 200px;
+  background-image: url(./images/BBJ_LIT.png);
+  padding-bottom: -100px;
+  min-height: 100%;
+  width: 100vh;
+  background: transparent;
+ 
+  z-index: 0;
+  
+  
+}
+.neonText {
+  padding-left: 22%;
+  font-size: 50px;
+  color: #6495ED;
+  text-shadow:
+      0 0 7px #6495ED,
+      0 0 10px #6495ED,
+      0 0 21px #6495ED,
+      0 0 42px #60c657,
+      0 0 82px #6495ED,
+      0 0 92px #6495ED,
+      0 0 102px #6495ED,
+      0 0 151px black;
+}
+
+.sub-text {
+  font-size: 20px;
+  padding-left: 150px;
+  color: white;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #60c657 25%, #35aee2 100%);
+  background-clip: text;
+  padding-left: 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+  height: 520px;
+  border: none;
+  width: 593px;
+  padding-bottom: 20px;
+  padding-top: -30px;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 80px;
+  padding-left: 300px;
+  padding-right: 0px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  
+}
+
+.connect-wallet-button {
+  font-size: 30px;
+  font-style: bold;
+  font-family: "Roboto";
+  z-index: 1;
+  background-image: url(./images/MINT_BBJ2.png);
+  background-repeat: none;
+  background-position: contain;
+  background-size: 500px;
+  padding-right: 0px;
+  padding-top: 10px;
+  margin-top: 100px;
+  padding-bottom: 115px;
+  background-color: transparent;
+  color: #60c657;
+  text-shadow:
+      0 0 7px #60c657,
+      0 0 10px #60c657,
+      0 0 21px #60c657,
+      0 0 42px #60c657,
+      0 0 82px #60c657,
+      0 0 92px #60c657,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.mint-button {
+  min-width: 500px;
+  width: 580px;
+  z-index: 1;
+  background-image: url(./images/BBJ_LIT.png);
+  background-repeat: none;
+  background-position: contain;
+  background-size: 500px;
+  padding-left: 350px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 115px;
+  margin-top: 100px;
+  background-color: transparent;
+  font-size: 35px;
+  font-family: "sans-serif;";
+  color: #60c657;
+  text-shadow:
+      0 0 7px #60c657,
+      0 0 10px #60c657,
+      0 0 21px #60c657,
+      0 0 42px #60c657,
+      0 0 82px #60c657,
+      0 0 92px #60c657,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.opensea-button {
+  padding: 13px;
+  background: transparent;
+  border: none;
+
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.opensea-logo {
+  position: left;
+  width: 40px;
+  height: 40px;
+  top: 5px;
+  right: 2px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-bottom: 0px;
+  padding-left: 250px ;
+  padding-top: 70px;
+  z-index: 7;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+
+}
+
+.footer-text {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.clouds{
+    background-image: url(./images/clouds.png);
+    position: relative;
+    z-index: -1;
+  }
+  .moving-clouds {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  width: 200.625em;
+  height: 50.75em;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite; }
+
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0); } }
+  
+  .blink{
+  text-shadow: 0px 0px 5px #ffffff;
+  padding-top: 50px; 
+  font-style: bold;
+  font-weight: 500;
+  opacity: .5;
+  animation: blinker 2s linear infinite;
+}
+
+/* KeyFrames */
+
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
