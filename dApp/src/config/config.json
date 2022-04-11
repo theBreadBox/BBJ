@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x89275Fcd347576559B8Cfd41d6631DD5Ec056De8",
+  "SCAN_LINK": "https://etherscan.io/address/0x89275Fcd347576559B8Cfd41d6631DD5Ec056De8",
+  "NETWORK": {
+    "NAME": "Ethereum Mainnet",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Alivacious",
+  "SYMBOL": "RUDY",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 25000000000000000,
+  "DISPLAY_COST": 0.025,
+  "GAS_LIMIT": 95000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/alivacious",
+  "SHOW_BACKGROUND": true
+}
