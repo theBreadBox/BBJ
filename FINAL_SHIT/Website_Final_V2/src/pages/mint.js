@@ -99,7 +99,7 @@ function Mint() {
 				const Price = await nft.methods.cost().call()
 				setPrice(Price)
 
-				const totalMinted = await nft.methods.totalMinted().call()
+				const totalMinted = await nft.methods.totalSupply().call()
                 setTotalMinted(totalMinted)
 				
 
@@ -294,8 +294,9 @@ function Mint() {
 				value: totalCostWei,
 				})
 			.on('confirmation', async () => {
-				window.alert('Congrats! Your transaction has been confirmed!')
-		const totalMinted = await nft.methods.totalMinted()
+				
+
+		const totalMinted = await nft.methods.totalSupply()
 			.call()
 			setTotalMinted(totalMinted)
 
